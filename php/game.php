@@ -132,7 +132,7 @@ if(isset($_POST['drop']))
     if($search)
     {
         echo '<div class="row"><div class="col-xs-4 col-xs-offset-4 thumbnail">
-            <div class="row no_pad_mar text-center"><button class="btn btn-primary" name="search">CERCA SEGERTI</button></div>
+            <div class="row no_pad_mar text-center"><button class="btn btn-primary" name="search">CERCA SEGRETI</button></div>
             <div class="row no_pad_mar no_pad_mar">Usa un PF per cercare un passaggio segreto o un oggetto nascosto. Aumenta PERCEZIONE per avere maggiori probabilità di successo</div>
             </div></div>';
     }
