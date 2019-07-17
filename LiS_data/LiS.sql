@@ -112,7 +112,7 @@ CREATE TABLE zaini (
     ON UPDATE CASCADE ON DELETE CASCADE,
     id_oggetto INTEGER NOT NULL REFERENCES oggetti(id)
     ON UPDATE CASCADE ON DELETE CASCADE,
-    is_equip BOOLEAN NOT NULL DEFAULT FALSE, --con TRUE può essere usato su uno di attacco,uno difesa e N consumabili
+    is_equip BOOLEAN NOT NULL DEFAULT FALSE --con TRUE può essere usato su uno di attacco,uno difesa e N consumabili
 );
 CREATE TABLE stato_oggetti (
     id SERIAL PRIMARY KEY,
